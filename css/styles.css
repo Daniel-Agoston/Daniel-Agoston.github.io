@@ -83,6 +83,7 @@ a:hover {
     text-align: left;
     line-height: 2;
     color: #40514E;
+    overflow: auto;
 }
 
 .mountain-img {
