@@ -66,11 +66,15 @@ a:hover {
     padding-top: 100px;
 }
 
+.middle-container {
+    position: relative;
+
+}
+
 .bottom-container {
     margin-top: 100px;
     background-color: #66BFBF;
     padding: 50px 0 20px;
-
 }
 
 .skill-row {
@@ -79,21 +83,14 @@ a:hover {
     text-align: left;
     line-height: 2;
     color: #40514E;
-    overflow: auto;
-    /* correct the issue whereby the chilli img and text where in the wrong place and not aligned where it should be*/
 }
 
-.top-cloud {
-    position: absolute;
-    right: 400px;
-    top: 40px;
+.mountain-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -4px;
 }
 
-.bottom-cloud {
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
-}
 
 .computer-img {
     width: 25%;
@@ -117,7 +114,7 @@ a:hover {
 }
 
 .intro {
-    width: 35%;
+    width: 30%;
     margin: auto;
     text-align: center;
     color: #40514E;
@@ -129,6 +126,16 @@ a:hover {
     text-align: center;
     line-height: 2;
     color: #40514E;
+}
+
+#ifyou {
+    margin: 50px;
+}
+
+.footer-link {
+    color: black;
+    font-weight: bold;
+
 }
 
 .copyright {
@@ -162,4 +169,16 @@ a:hover {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .lovewings2 {
+    width: 50%;    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 50%;    
+  }
 }
