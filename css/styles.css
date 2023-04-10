@@ -59,7 +59,6 @@ a:hover {
         /*enable white color once hover over social media links*/
 }
 
-
 .top-container {
     background-color: #EAF6F6;
     position: relative;
@@ -68,7 +67,6 @@ a:hover {
 
 .middle-container {
     position: relative;
-
 }
 
 .bottom-container {
@@ -84,6 +82,7 @@ a:hover {
     line-height: 2;
     color: #40514E;
     overflow: auto;
+    /*fixes issue with dotted lines on large screens*/
 }
 
 .mountain-img {
@@ -91,7 +90,6 @@ a:hover {
     height: auto;
     margin-bottom: -4px;
 }
-
 
 .computer-img {
     width: 25%;
@@ -140,7 +138,6 @@ a:hover {
 .footer-link {
     color: black;
     font-weight: bold;
-
 }
 
 .copyright {
@@ -177,13 +174,13 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .lovewings2 {
-    width: 50%;    
-  }
+    .lovewings2 {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .intro {
-    width: 50%;    
-  }
+    .intro {
+        width: 50%;
+    }
 }
