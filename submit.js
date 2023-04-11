@@ -17,7 +17,7 @@ document.getElementById("contactForm").addEventListener("submit", function (even
                 // Remove the message after 2 seconds
                 setTimeout(() => {
                     document.getElementById("messageContainer").innerHTML = "";
-                }, 2000);
+                }, 3000);
             } else {
                 document.getElementById("messageContainer").innerHTML = "Oops! Something went wrong. Please try again.";
             }
