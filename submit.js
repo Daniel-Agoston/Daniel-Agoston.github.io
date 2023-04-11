@@ -6,9 +6,9 @@ document.getElementById("contactForm").addEventListener("submit", function (even
 
     // Send the form data using AJAX
     fetch(event.target.action, {
-        method: "POST",
-        body: formData,
-    })
+            method: "POST",
+            body: formData,
+        })
         .then((response) => {
             if (response.ok) {
                 document.getElementById("messageContainer").innerHTML = "Thank you! Your message has been sent.";
