@@ -15,6 +15,7 @@ nav ul {
 .nav-links li {
   display: inline-block;
   margin-left: 20px;
+  position: relative;
 }
 
 .nav-links li:first-child {
@@ -27,12 +28,14 @@ nav ul {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 18px;
+  position: relative;
 }
 
 nav a:hover {
   color: black;
 }
 
+/* responsive code for nav bar itself*/
 @media screen and (max-width: 768px) {
   .nav-links {
     margin-top: -10px;
@@ -44,5 +47,6 @@ nav a:hover {
   .nav-links li {
     display: block;
     margin: 10px 0;
+    position: relative;
   }
 }
