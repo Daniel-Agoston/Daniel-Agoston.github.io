@@ -98,3 +98,44 @@ body.contact {
     border-top: 1px solid #fff;
     margin-top: -9px;
 }
+
+/* This code below enables clickable email on smaller devices*/
+
+/* Hide the email link with mailto attribute by default */
+.email-link-responsive {
+    display: none;
+}
+
+/* In the responsive version, hide the original email span and show the email link with mailto attribute */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin-right: 20px;
+    }
+
+    .phrase {
+        margin-top: 50px;
+    }
+
+    .contact-info {
+        margin-top: 50px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .email-link-responsive {
+        display: inline;
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+/* This makes sure the email does not disappear once clicked on*/
+.email-link-responsive:hover,
+.email-link-responsive:focus,
+.email-link-responsive:active,
+.email-link-responsive:visited {
+    color: inherit;
+}
